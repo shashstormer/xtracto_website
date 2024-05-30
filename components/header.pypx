@@ -1,0 +1,43 @@
+header
+    ;;class="flex w-[100%] h-[200px] dark:bg-[#232323]";;
+    a
+        ;;href="/";;
+        ;;class="mr-auto flex relative";;
+        img
+            ;;src="/favicon.ico";;
+            ;;width="200";;
+            ;;alt="StormID";;
+            ;;height="200";;
+        div
+            ;;class="my-auto mr-3 pr-3";;
+            h1
+                ;;class="hover:underline";;
+                {{doc_title}}
+            p
+                ;;class="text-sm decoration-0 hover:underline";;
+                {{tagline=The Dynamic Web Development Framework for python}}
+    a
+        ;;href="/{{alternate=}}";;
+        ;;class="ml-auto flex relative";;
+        div
+            ;;class="my-auto mr-3 pr-3";;
+            h1
+                ;;class="hover:underline";;
+                {{alternate_name=Xtracto}}
+
+::
+br
+    ;; ;;
+br
+    ;; ;;
+br
+    ;; ;;
+br
+    ;; ;;
+br
+    ;; ;;
+br
+    ;; ;;
+br
+    ;; ;;
+::

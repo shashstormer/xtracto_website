@@ -1,0 +1,115 @@
++$doc_title=PY Tailwind CSS$+
++$tagline=Pure Python Tailwind CSS Parser$+
++$page_title={{doc_title}}$+
+
+main
+    [[line.pypx]]
+    ;;class="container relative mx-auto p-6 shadow-lg rounded-lg z-[2]";;
+    h2
+        ;;class="text-2xl font-semibold mt-8 mb-4 light:text-gray-700";;
+        Source Code
+    p
+        ;;class="text-base light:text-gray-600 mb-8";;
+        Access the source code:
+        a
+            ;;class="text-green-500 hover:underline";;
+            ;;href="https://github.com/shashstormer/pytailwindcss";;
+            pytailwind Repository
+        br
+            ;; ;;
+        PYPI:
+        a
+            ;;class="text-green-500 hover:underline";;
+            ;;href="https://pypi.org/project/pytailwind/";;
+            pyTailwind on PYPI
+    [[line.pypx]]
+    h2
+        ;;class="text-2xl font-semibold mt-8 mb-4 light:text-gray-700";;
+        Introduction
+    p
+        ;;class="text-base light:text-gray-600 mt-4 mb-8";;
+        Welcome to PY Tailwind CSS, a pure Python Tailwind CSS parser that simplifies the integration of Tailwind CSS into your Python projects. Our parser is designed to be lightweight, fast, and easy to use, making it the perfect choice for Python developers who want to leverage the power of Tailwind CSS without leaving their Python environment.
+    [[line.pypx]]
+    h2
+        ;;class="text-2xl font-semibold mt-8 mb-4 light:text-gray-700";;
+        Key Features
+    ul
+        ;;class="list-disc list-inside text-base light:text-gray-600 mt-4 mb-8";;
+        li
+            ;;class="mt-2";;
+            Pure Python implementation, no need for Node.js or npm.
+        li
+            ;;class="mt-2";;
+            Seamless integration with existing Python web frameworks.
+        li
+            ;;class="mt-2";;
+            Supports most Tailwind CSS classes and features.
+        li
+            ;;class="mt-2";;
+            Lightweight and fast, designed for performance.
+        li
+            ;;class="mt-2";;
+            Easy-to-use for effortless integration.
+    [[line.pypx]]
+    h2
+        ;;class="text-2xl font-semibold mt-8 mb-4 light:text-gray-700";;
+        Getting Started
+    p
+        ;;class="text-base light:text-gray-600 mt-4";;
+        To get started you can install this through pypi
+        code
+            ;;class="block ml-8 my-2 p-2 light:bg-gray-200 dark:bg-gray-800 w-[60%]";;
+            pip install pytailwind
+        and then
+        pre
+            code
+                ;;class="block ml-8 my-2 p-2 light:bg-gray-200 dark:bg-gray-800 w-[60%] text-sm text-gray-700 dark:text-gray-300";;
+                from pytailwind import Tailwind
+                tailwind = Tailwind()
+                with open("index.html", "rt") as f:
+                &emsp;&emsp;html_content = f.read()
+                css = tailwind.generate(html_content)
+                with open("tailwind.css", 'wt') as f:
+                &emsp;&emsp;f.write(css)
+
+    p
+        ;;class="text-base light:text-gray-600 mt-4 mb-8";;
+        For a sample project using pyTailwind through XTRACTO found on github at
+        a
+            ;;class="text-green-500 hover:underline";;
+            ;;href="https://github.com/shashstormer/xtracto_website";;
+            shashstormer/xtracto_website
+    [[line.pypx]]
+    h2
+        ;;class="text-2xl font-semibold mt-8 mb-4 light:text-gray-700";;
+        Community and Support
+    p
+        ;;class="text-base light:text-gray-600 mt-4";;
+        Join our community to share your projects, seek help, and collaborate with other developers. You can find us on:
+    ul
+        ;;class="list-disc list-inside text-base light:text-gray-600 mt-4";;
+        li
+            ;;class="mt-2";;
+            a
+                ;;class="text-green-500 hover:underline";;
+                ;;href="https://discord.gg/DDtZEFfXre";;
+                ;;target="_blank";;
+                Discord
+        ::li
+            ;;class="mt-2";;
+            Stack Overflow (tag: pytailwind)::
+    p
+        ;;class="text-base light:text-gray-600 mt-4 mb-8";;
+        We encourage contributions and feedback. Feel free to open issues or pull requests on our GitHub repository to help us improve pytailwind.
+    [[line.pypx]]
+    h2
+        ;;class="text-2xl font-semibold mt-8 mb-4 light:text-gray-700";;
+        License
+    p
+        ;;class="text-base light:text-gray-600 mt-4";;
+        PY Tailwind CSS is released under the MIT License. For more details, see the
+        a
+            ;;class="text-green-500 hover:underline";;
+            ;;href="https://github.com/shashstormer/pytailwindcss/blob/master/LICENSE.txt";;
+            LICENSE
+        file.

@@ -1,0 +1,6 @@
+[[line.pypx]]
+footer
+    ;;class="w-full text-white py-8 mt-8";;
+    p
+        ;;class="text-sm mx-auto w-max";;
+        &copy; 2024 shashstormer. All rights reserved.

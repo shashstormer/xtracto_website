@@ -1,0 +1,19 @@
+html
+    head
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        title
+            {{page_title=Xtracto}}
+        style
+            [[base.css]]
+            {{tailwind_css_content=}}
+        meta
+            ;;
+            name="description"
+            content="{{tagline=The Dynamic Web Development Framework for python}}"
+            ;;
+        [[inter.html]]
+    body
+        ;;class="dark:bg-black dark:text-white";;
+        [[header.pypx]]
+        {{children}}
+        [[footer.pypx]]

@@ -1,0 +1,141 @@
++$doc_title=Xtracto$+
++$alternate_name=PY Tailwind CSS$+
++$alternate=pytailwindcss$+
+main
+    [[line.pypx]]
+    ;;class="container relative mx-auto p-6 shadow-lg rounded-lg light:bg-white z-[2]";;
+    h2
+        ;;class="text-xl font-semibold mt-8 mb-4 light:text-gray-700 dark:text-gray-100";;
+        Source Code
+    div
+        ;;class="text-base light:text-gray-600 mb-8";;
+        Access the source code:
+        a
+            ;;class="text-green-500 hover:underline";;
+            ;;href="https://github.com/shashstormer/xtracto";;
+            Xtracto Repository
+        br
+            ;; ;;
+        PYPI:
+        a
+            ;;class="text-green-500 hover:underline";;
+            ;;href="https://pypi.org/project/xtracto/";;
+            Xtracto on PYPI
+    [[line.pypx]]
+    h2
+        ;;class="text-xl font-semibold mt-8 mb-4 light:text-gray-700";;
+        Introduction
+    div
+        ;;class="text-base light:text-gray-600 mt-4";;
+        Welcome to Xtracto, the innovative web development framework that empowers developers to create dynamic web pages with ease. Xtracto is designed with extensibility, configurability, and reusability in mind, making it the perfect tool for developers who want to streamline their web development process.
+    div
+        ;;class="text-base light:text-gray-600 mt-4";;
+        This framework is built to work with a custom markup language called
+        a
+            ;;class="text-green-500 hover:underline italic";;
+            ;;href="https://github.com/shashstormer/xtracto/blob/master/xtracto/pypx.md";;
+            pypx
+    div
+        ;;class="text-base light:text-gray-600 mt-4";;
+        However, you can make webpages/components completely with HTML and use the import feature to compile your pages in the way you wish.
+    div
+        ;;class="text-base light:text-gray-600 mt-4 mb-8";;
+        While using the variable parsing feature to simplify development and generation of your pages.
+    [[line.pypx]]
+    h2
+        ;;class="text-xl font-semibold mt-8 mb-4 light:text-gray-700";;
+        Key Features
+    ul
+        ;;class="list-disc list-inside text-base light:text-gray-600 mt-4";;
+        li
+            ;;class="mt-2";;
+            Integrated with
+            a
+                ;;class="text-green-400 hover:underline";;
+                ;;href="/pytailwindcss";;
+                pytailwind
+            a tailwind parser made with purely with python.
+        li
+            ;;class="mt-2";;
+            Extensible architecture allowing for easy addition of custom components.
+        li
+            ;;class="mt-2";;
+            Configurable templates to suit diverse project needs.
+        li
+            ;;class="mt-2";;
+            Reusable components to enhance development efficiency.
+        li
+            ;;class="mt-2";;
+            Supports both pypx and HTML, giving developers flexibility.
+        li
+            ;;class="mt-2";;
+            Simplified variable parsing to streamline content generation.
+        li
+            ;;class="mt-2 mb-8";;
+            Set variable
+            code
+                production = True
+            to skip validation of css and js files (you may want to validate css and js while developing (these use node modules so if you dont want to install them or dont need that then this skips those steps)).
+    [[line.pypx]]
+    h2
+        ;;class="text-xl font-semibold mt-8 mb-4 light:text-gray-700";;
+        Getting Started
+    div
+        ;;class="text-base light:text-gray-600 mt-4";;
+        To get started you can install this through pypi
+        code
+            ;;class="block ml-8 my-2 p-2 light:bg-gray-200 dark:bg-gray-800 w-[60%]";;
+            pip install xtracto
+    div
+        ;;class="text-base light:text-gray-600 mt-4 mb-8";;
+        For documentation and examples, refer to the
+        a
+            ;;class="text-green-500 hover:underline";;
+            ;;href="https://github.com/shashstormer/xtracto";;
+            Xtracto Repository
+    p
+        ;;class="text-base light:text-gray-600 mt-4 mb-8";;
+        You can find a sample project using XTRACTO and
+        a
+            ;;class="text-green-500 hover:underline";;
+            ;;href="/pytailwindcss";;
+            pytailwind
+        found on github at
+        a
+            ;;class="text-green-500 hover:underline";;
+            ;;href="https://github.com/shashstormer/xtracto_website";;
+            shashstormer/xtracto_website
+    [[line.pypx]]
+    h2
+        ;;class="text-xl font-semibold mt-8 mb-4 light:text-gray-700";;
+        Community and Support
+    div
+        ;;class="text-base light:text-gray-600 mt-4";;
+        Join the Xtracto community to share your projects, get help, and collaborate with other developers. You can find us on:
+    ul
+        ;;class="list-disc list-inside text-base light:text-gray-600 mt-4";;
+        li
+            ;;class="mt-2";;
+            a
+                ;;class="text-green-500 hover:underline";;
+                ;;href="https://discord.gg/DDtZEFfXre";;
+                ;;target="_blank";;
+                Discord
+        ::li
+            ;;class="mt-2";;
+            Stack Overflow (tag: xtracto)::
+    div
+        ;;class="text-base light:text-gray-600 mt-4 mb-8";;
+        We encourage contributions and feedback. Feel free to open issues or pull requests on the GitHub repository to help us improve Xtracto.
+    [[line.pypx]]
+    h2
+        ;;class="text-xl font-semibold mt-8 mb-4 light:text-gray-700";;
+        License
+    div
+        ;;class="text-base light:text-gray-600 mt-4";;
+        Xtracto is released under the MIT License. See the
+        a
+            ;;class="text-green-500 hover:underline";;
+            ;;href="https://github.com/shashstormer/xtracto/blob/master/LICENSE.txt";;
+            LICENSE
+        file for more details.
