@@ -1,5 +1,5 @@
 header
-    ;;class="flex w-[100%] h-[200px] dark:bg-[#232323]";;
+    ;;class="md:flex w-[100%] md:h-[200px] xs:h-max dark:bg-[#232323]";;
     a
         ;;href="/";;
         ;;class="mr-auto flex relative";;
@@ -18,12 +18,17 @@ header
                 {{tagline=The Dynamic Web Development Framework for python}}
     a
         ;;href="/{{alternate=}}";;
-        ;;class="ml-auto flex relative";;
+        ;;class="ml-8 md:ml-auto flex relative";;
         div
             ;;class="my-auto mr-3 pr-3";;
             h1
-                ;;class="hover:underline";;
-                {{alternate_name=Xtracto}}
+                ;;class="text-lg md:text-2xl capitalize flex";;
+                p
+                    ;;class="md:w-0 md:h-0 md:text-transparent";;
+                    other project:
+                p
+                    ;;class="text-green-500 md:dark:text-white ml-2 hover:underline";;
+                    {{alternate_name=Xtracto}}
 
 ::
 br
