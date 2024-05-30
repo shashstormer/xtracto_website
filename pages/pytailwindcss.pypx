@@ -62,8 +62,8 @@ main
             pip install pytailwind
         and then
         pre
+            ;;class="block sm:ml-8 my-2 p-2 light:bg-gray-200 dark:bg-gray-800 w-full sm:w-[60%] text-sm text-gray-700 dark:text-gray-300";;
             code
-                ;;class="block ml-8 my-2 p-2 light:bg-gray-200 dark:bg-gray-800 w-[60%] text-sm text-gray-700 dark:text-gray-300";;
                 from pytailwind import Tailwind
                 tailwind = Tailwind()
                 with open("index.html", "rt") as f:
