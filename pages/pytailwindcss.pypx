@@ -58,7 +58,7 @@ main
         ;;class="text-base light:text-gray-600 mt-4";;
         To get started you can install this through pypi
         code
-            ;;class="block ml-8 my-2 p-2 light:bg-gray-200 dark:bg-gray-800 w-[60%]";;
+            ;;class="block sm:ml-8 my-2 p-2 light:bg-gray-200 dark:bg-gray-800 w-full sm:w-[60%] text-sm text-gray-700 dark:text-gray-300";;
             pip install pytailwind
         and then
         pre
